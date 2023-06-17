@@ -1,0 +1,105 @@
+/* Estilos para la página web */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('./imagenes/fondo2.JPG'); /* Reemplaza 'ruta/de/la/imagen.jpg' con la ruta correcta de tu imagen */
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Ajusta el valor de transparencia (0.8) según tus preferencias */
+  }
+  
+  
+  header {
+    background-color: #ce289f;
+    padding: 20px;
+    color: white;
+    text-align: center;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  h1 {
+    margin-top: 0;
+  }
+  
+  .contenedor-insectos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .insecto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .imagen-insecto {
+    width: 200px;
+    height: auto;
+    cursor: pointer;
+  }
+  
+  .popup-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .popup-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+  }
+  
+  #popup-imagen {
+    width: 200px;
+    height: auto;
+  }
+  
+  #popup-informacion {
+    margin-left: 20px;
+  }
+  
+  #popup-titulo {
+    margin-top: 0;
+  }
+  
+  #popup-descripcion {
+    margin-bottom: 0;
+  }
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .modal-dialog {
+    margin: 0 auto;
+    max-width: 600px;
+    margin-top: 10%;
+  }
+  
